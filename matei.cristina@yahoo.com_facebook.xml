@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+  <Person person_id="1">
+    <Name>Cristina Matei</Name>
+    <Gender>female</Gender>
+    <Website>cris.com</Website>
+    <Email>matei.cristina@yahoo.com</Email>
+    <DateOfBirth>1997-05-11</DateOfBirth>
+    <Education>
+      <Name>Politehnica</Name>
+      <Name>Universitate</Name>
+    </Education>
+    <Jobs>
+      <Name>junior developer</Name>
+      <Name>freelancer</Name>
+    </Jobs>
+    <Memberships>
+      <Membership>
+        <Title>mebership title</Title>
+        <MembershipDescription>description membership</MembershipDescription>
+        <MembershipPeriod>2010-2012</MembershipPeriod>
+      </Membership>
+    </Memberships>
+    <Interests>
+      <Interest>sport</Interest>
+      <Interest>programming</Interest>
+      <Interest>swimming</Interest>
+    </Interests>
+  </Person>
+</Persons>

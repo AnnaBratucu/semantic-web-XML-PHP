@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
+<Persons>
+  <Person person_id="1">
+    <Name>Ana Bratucu</Name>
+    <Gender>female</Gender>
+    <Website>website</Website>
+    <Email>ana.bratucu@yahoo.com</Email>
+    <DateOfBirth>2020-01-01</DateOfBirth>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>Poli</Name>
+        <City>Buc</City>
+        <GraduationYear>2020</GraduationYear>
+        <Subjects>
+          <Subject>
+            <Name>SW</Name>
+            <FinalGrade>10</FinalGrade>
+            <Keyword>swmantic</Keyword>
+            <Year>2019</Year>
+            <SubjectType>technologic</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>extra course</Name>
+        <YearGraduation>2018</YearGraduation>
+      </Course>
+    </InformalEducation>
+    <Jobs>
+      <Job>
+        <Title>job title</Title>
+        <JobDescription>job descr</JobDescription>
+        <JobPeriod>1 year</JobPeriod>
+      </Job>
+    </Jobs>
+    <Awards>
+      <Award>
+        <Name>award1</Name>
+        <TitleAward>title1</TitleAward>
+        <YearAward>2018</YearAward>
+      </Award>
+    </Awards>
+    <Memberships>
+      <Membership>
+        <Title>membership</Title>
+        <MembershipDescription>decsr membership</MembershipDescription>
+        <MembershipPeriod>3 years</MembershipPeriod>
+      </Membership>
+    </Memberships>
+    <Interests>
+      <Interest>programming</Interest>
+    </Interests>
+  </Person>
+</Persons>

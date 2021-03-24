@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student student_id="1">
+    <Name>Popescu Ion</Name>
+    <Gender>male</Gender>
+    <Website>ion.com</Website>
+    <Address>addres ion</Address>
+    <Telephone>077-77-777</Telephone>
+    <Email>ion@yahoo.com</Email>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>Politehnica</Name>
+        <City>Bucuresti</City>
+        <Year>2020</Year>
+        <Subjects>
+          <Subject>
+            <Name>Semantic Web</Name>
+            <FinalGrade>10</FinalGrade>
+            <FinalGrade>xml</FinalGrade>
+            <FinalGrade>4</FinalGrade>
+            <SubjectType>technologic</SubjectType>
+          </Subject>
+          <Subject>
+            <Name>subject test</Name>
+            <FinalGrade>10</FinalGrade>
+            <FinalGrade>test keyword</FinalGrade>
+            <FinalGrade>2</FinalGrade>
+            <SubjectType>scientific</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+      <FormStudy education_id="1">
+        <Name>asdsad</Name>
+        <City>asd</City>
+        <Year>asds</Year>
+        <Subjects>
+          <Subject>
+            <Name>asd</Name>
+            <FinalGrade>sad</FinalGrade>
+            <FinalGrade>asd</FinalGrade>
+            <FinalGrade>asd</FinalGrade>
+            <SubjectType>technologic</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>course extra</Name>
+        <YearGraduation>2018</YearGraduation>
+      </Course>
+    </InformalEducation>
+    <Jobs>
+      <Job>
+        <Title>job title</Title>
+        <JobDescription>web developer php sql js</JobDescription>
+        <JobPeriod>2017-present</JobPeriod>
+      </Job>
+    </Jobs>
+    <Awards>
+      <Award>
+        <Name>awards</Name>
+        <TitleAward>title award</TitleAward>
+        <YearAward>2019</YearAward>
+      </Award>
+    </Awards>
+    <Memberships>
+      <Membership>
+        <Title>membership</Title>
+        <MembershipDescription>descir</MembershipDescription>
+        <MembershipPeriod>period</MembershipPeriod>
+      </Membership>
+    </Memberships>
+  </Student>
+</Students>

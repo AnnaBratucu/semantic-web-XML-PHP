@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
+<Persons>
+  <Person person_id="1">
+    <Name>Ana Bratucu</Name>
+    <Gender>female</Gender>
+    <Website>websiteeee</Website>
+    <Email>ana.bratucu@yahoo.com</Email>
+    <DateOfBirth>2020-01-04</DateOfBirth>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>Poli</Name>
+        <City>Buc</City>
+        <GraduationYear>2020</GraduationYear>
+        <Subjects>
+          <Subject>
+            <Name>dsa</Name>
+            <FinalGrade>9</FinalGrade>
+            <Keyword>keyword</Keyword>
+            <Year>2016</Year>
+            <SubjectType>technologic</SubjectType>
+          </Subject>
+          <Subject>
+            <Name>math</Name>
+            <FinalGrade>9</FinalGrade>
+            <Keyword>keyy</Keyword>
+            <Year>2018</Year>
+            <SubjectType>scientific</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>extra course</Name>
+        <YearGraduation>2011</YearGraduation>
+      </Course>
+    </InformalEducation>
+    <Awards>
+      <Award>
+        <Name>award1</Name>
+        <TitleAward>titleaward</TitleAward>
+        <YearAward>2020</YearAward>
+      </Award>
+    </Awards>
+    <Memberships>
+      <Membership>
+        <Title>member</Title>
+        <MembershipDescription>descr member</MembershipDescription>
+        <MembershipPeriod>3 years</MembershipPeriod>
+      </Membership>
+    </Memberships>
+    <Interests>
+      <Interest>basketball</Interest>
+    </Interests>
+    <Jobs>
+      <Job>
+        <Title>jobbb</Title>
+        <JobDescription>descr job</JobDescription>
+        <JobPeriod>2019-2020</JobPeriod>
+      </Job>
+    </Jobs>
+  </Person>
+</Persons>

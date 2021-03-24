@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#"
+     xml:base="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasAgency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasAgency">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isAgency"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasCredits -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasCredits">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isCredits"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasManager -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasManager">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isManager"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Managers"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Administrative_and_Commercial_Managers"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Chief_Executives_Senior_Officials_and_Legislators"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasOcuppation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasOcuppation">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isOcuppation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasStudies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasStudies">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isStudiedOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Faculties"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Master"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isAgency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isAgency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isCredits -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isCredits"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isManager -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isManager">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isOcuppation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isOcuppation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isStudiedOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isStudiedOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Faculty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Faculty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Faculties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasGraduation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasGraduation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasMaster -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasMaster"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isManager -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#isManager"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Administrative_and_Commercial_Managers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Administrative_and_Commercial_Managers">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Managers"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasStudies"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Faculties"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Managers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Agricultural_Forestry_and_Fishery_Labourers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Agricultural_Forestry_and_Fishery_Labourers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Elementary_occupations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Armed_forces_occupations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Armed_forces_occupations"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Assemblers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Assemblers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Plant_and_machine_operators_and_assemblers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Chief_Executives_Senior_Officials_and_Legislators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Chief_Executives_Senior_Officials_and_Legislators">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Managers"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#hasStudies"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Master"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Managers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Cleaners_and_Helpers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Cleaners_and_Helpers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Elementary_occupations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Clerical_support_workers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Clerical_support_workers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Commissioned_Armed_Forces_Officers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Commissioned_Armed_Forces_Officers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Armed_forces_occupations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Craft_and_related_trades_workers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Craft_and_related_trades_workers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Customer_Services_Clerks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Customer_Services_Clerks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Clerical_support_workers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Electrical_and_Electronics_Trades_Workers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Electrical_and_Electronics_Trades_Workers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Craft_and_related_trades_workers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Elementary_occupations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Elementary_occupations"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Faculties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Faculties">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Master"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#General_and_Keyboard_Clerks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#General_and_Keyboard_Clerks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Clerical_support_workers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Health_Associate_Professionals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Health_Associate_Professionals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Technicians_and_associate_professionals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Information_and_Communications_Technicians -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Information_and_Communications_Technicians">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Technicians_and_associate_professionals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Managers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Managers">
+        <rdfs:comment>Ana and Mara are both managers</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Market_oriented_Skilled_Agricultural_Workers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Market_oriented_Skilled_Agricultural_Workers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Skilled_agricultural_forestry_and_fishery_workers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Master -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Master">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Faculties"/>
+        <rdfs:comment>Ana and Mara went to same master</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Metal_Machinery_and_Related_Trades_Workers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Metal_Machinery_and_Related_Trades_Workers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Craft_and_related_trades_workers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Non_commissioned_Armed_Forces_Officers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Non_commissioned_Armed_Forces_Officers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Armed_forces_occupations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Personal_Care_Workers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Personal_Care_Workers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Service_and_sales_workers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Personal_Services_Workers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Personal_Services_Workers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Service_and_sales_workers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Plant_and_machine_operators_and_assemblers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Plant_and_machine_operators_and_assemblers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Professionals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Professionals"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Science_and_Engineering_Professionals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Science_and_Engineering_Professionals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Professionals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Service_and_sales_workers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Service_and_sales_workers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Skilled_agricultural_forestry_and_fishery_workers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Skilled_agricultural_forestry_and_fishery_workers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Stationary_Plant_and_Machine_Operators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Stationary_Plant_and_Machine_Operators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Plant_and_machine_operators_and_assemblers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Subsistence_Farmers_Fishers_Hunters_and_Gatherers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Subsistence_Farmers_Fishers_Hunters_and_Gatherers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Skilled_agricultural_forestry_and_fishery_workers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Teaching_Professionals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Teaching_Professionals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Professionals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Technicians_and_associate_professionals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Technicians_and_associate_professionals"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Ana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Ana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Managers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Ion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Ion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Science_and_Engineering_Professionals"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Mara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Mara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Managers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Vlad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17#Vlad"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

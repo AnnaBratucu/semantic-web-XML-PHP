@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
+    vc:minVersion="1.0" vc:maxVersion="1.1"> 
+        <xs:element name="Persons">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Person">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element type="xs:string" name="Name"/>
+                                <xs:element type="xs:string" name="Gender"/>
+                                <xs:element type="xs:string" name="Website"/>
+                                <xs:element type="xs:string" name="Email"/>
+                                <xs:element type="xs:date" name="DateOfBirth"/>
+                                <xs:element name="Education">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element type="xs:string" name="Name" maxOccurs="unbounded" minOccurs="0"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Jobs">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element type="xs:string" name="Name"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Memberships">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="Membership">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element type="xs:string" name="Title"/>
+                                                        <xs:element type="xs:string" name="MembershipDescription"/>
+                                                        <xs:element type="xs:string" name="MembershipPeriod"/>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Interests">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element type="xs:string" name="Interest" maxOccurs="unbounded" minOccurs="0"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                            <xs:attribute type="xs:int" name="person_id"/>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>

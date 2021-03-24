@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student student_id="1">
+    <Name>Ana Bratucu</Name>
+    <Gender>male</Gender>
+    <Website>asd</Website>
+    <Address>Bvd Constructorilor, no 29</Address>
+    <Telephone>777-77-777</Telephone>
+    <Email>ana.bratucu1@yahoo.com</Email>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>asdf</Name>
+        <City>asd</City>
+        <Year>asd</Year>
+        <Subjects>
+          <Subject>
+            <Name>asd</Name>
+            <FinalGrade>asd</FinalGrade>
+            <FinalGrade>asd</FinalGrade>
+            <FinalGrade>asd</FinalGrade>
+            <SubjectType>languages</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>asd</Name>
+        <YearGraduation>asd</YearGraduation>
+      </Course>
+    </InformalEducation>
+    <Jobs>
+      <Job>
+        <Title>asd</Title>
+        <JobDescription>asd</JobDescription>
+        <JobPeriod>asd</JobPeriod>
+      </Job>
+    </Jobs>
+    <Awards>
+      <Award>
+        <Name>asd</Name>
+        <TitleAward>asd</TitleAward>
+        <YearAward>asd</YearAward>
+      </Award>
+    </Awards>
+    <Memberships>
+      <Membership>
+        <Title>asd</Title>
+        <MembershipDescription>asd</MembershipDescription>
+        <MembershipPeriod>asd</MembershipPeriod>
+      </Membership>
+    </Memberships>
+  </Student>
+</Students>

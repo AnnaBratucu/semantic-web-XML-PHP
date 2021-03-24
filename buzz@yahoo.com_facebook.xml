@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+  <Person person_id="1">
+    <Name>Buzz Mcall</Name>
+    <Gender>male</Gender>
+    <Website>buzz.com</Website>
+    <Email>buzz@yahoo.com</Email>
+    <DateOfBirth>1990-02-14</DateOfBirth>
+    <Education>
+      <Name>Queens High School</Name>
+    </Education>
+    <Jobs>
+      <Name>waiter</Name>
+      <Name>mcdonalds</Name>
+    </Jobs>
+    <Memberships>
+      <Membership>
+        <Title>chess club</Title>
+        <MembershipDescription>learn chess</MembershipDescription>
+        <MembershipPeriod>2000-2001</MembershipPeriod>
+      </Membership>
+    </Memberships>
+    <Interests>
+      <Interest>sport</Interest>
+      <Interest>watch tv</Interest>
+      <Interest>sleep</Interest>
+    </Interests>
+  </Person>
+</Persons>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+  <Person person_id="1">
+    <Name>Ana Bratucu</Name>
+    <Gender>female</Gender>
+    <Website>webb.com</Website>
+    <Email>ana7bratucu@gmail.com</Email>
+    <DateOfBirth>2020-01-09</DateOfBirth>
+    <Education>
+      <Name>Poly</Name>
+    </Education>
+    <Jobs>
+      <Name>sad</Name>
+    </Jobs>
+    <Memberships>
+      <Membership>
+        <Title>asd</Title>
+        <MembershipDescription>asd</MembershipDescription>
+        <MembershipPeriod>asd</MembershipPeriod>
+      </Membership>
+    </Memberships>
+    <Interests>
+      <Interest>asd</Interest>
+    </Interests>
+  </Person>
+</Persons>

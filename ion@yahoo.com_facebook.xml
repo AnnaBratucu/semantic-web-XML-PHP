@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+  <Person person_id="1">
+    <Name>Popescu Ion</Name>
+    <Gender>male</Gender>
+    <Website>ion.com</Website>
+    <Email>ion@yahoo.com</Email>
+    <DateOfBirth>2019-11-14</DateOfBirth>
+    <Education>
+      <Name>Politehnica</Name>
+      <Name>asdsad</Name>
+    </Education>
+    <Jobs>
+      <Name>job title</Name>
+    </Jobs>
+    <Memberships>
+      <Membership>
+        <Title>membership</Title>
+        <MembershipDescription>descir</MembershipDescription>
+        <MembershipPeriod>period</MembershipPeriod>
+      </Membership>
+    </Memberships>
+    <Interests>
+      <Interest>programming</Interest>
+    </Interests>
+  </Person>
+</Persons>

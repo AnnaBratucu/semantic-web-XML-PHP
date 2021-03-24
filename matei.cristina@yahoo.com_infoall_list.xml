@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
+
+<!DOCTYPE Persons [
+   <!ELEMENT Persons (Person)>
+   <!ELEMENT Person (Name, Gender, Website, Email, DateOfBirth, Education, InformalEducation, Awards, Memberships, Interests, Jobs )>
+   <!ATTLIST Person person_id CDATA #REQUIRED>
+   <!ELEMENT Name (#PCDATA)>
+   <!ELEMENT Gender (#PCDATA)>
+   <!ELEMENT Website (#PCDATA)>
+   <!ELEMENT Email (#PCDATA)>
+   <!ELEMENT DateOfBirth (#PCDATA)>
+   <!ELEMENT Education (FormStudy+ )>
+   <!ELEMENT InformalEducation (Course+)>
+   <!ELEMENT Jobs (Job+)>
+   <!ELEMENT Awards (Award+)>
+   <!ELEMENT Memberships (Membership+)>
+   <!ELEMENT Interests (Interest+)>
+   <!ELEMENT FormStudy (Name, City, GraduationYear, Subjects )>
+   <!ATTLIST FormStudy education_id CDATA #REQUIRED>  
+   <!ELEMENT Course (Name, YearGraduation)>
+   <!ELEMENT Job (Title, JobDescription, JobPeriod)>
+   <!ELEMENT Award (Name, TitleAward, YearAward)>
+   <!ELEMENT Membership (Title, MembershipDescription, MembershipPeriod)>
+   <!ELEMENT Interest (#PCDATA)>
+   <!ELEMENT City (#PCDATA)>
+   <!ELEMENT GraduationYear (#PCDATA)>
+   <!ELEMENT Subjects (Subject+)>
+   <!ELEMENT YearGraduation (#PCDATA)>
+   <!ELEMENT Title (#PCDATA)>
+   <!ELEMENT JobDescription (#PCDATA)>
+   <!ELEMENT JobPeriod (#PCDATA)>
+   <!ELEMENT TitleAward (#PCDATA)>
+   <!ELEMENT YearAward (#PCDATA)>
+   <!ELEMENT MembershipDescription (#PCDATA)>
+   <!ELEMENT MembershipPeriod (#PCDATA)>
+   <!ELEMENT Subject (Name, FinalGrade, Keyword, Year, SubjectType)>
+   <!ELEMENT FinalGrade (#PCDATA)>
+   <!ELEMENT Keyword (#PCDATA)>
+   <!ELEMENT Year (#PCDATA)>
+   <!ELEMENT SubjectType (#PCDATA)>
+]>
+
+<Persons>
+  <Person person_id="1">
+    <Name>Cristina Matei</Name>
+    <Gender>female</Gender>
+    <Website>cris.com</Website>
+    <Email>matei.cristina@yahoo.com</Email>
+    <DateOfBirth>1997-05-11</DateOfBirth>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>Politehnica</Name>
+        <City>Bucuresti</City>
+        <GraduationYear>2020</GraduationYear>
+        <Subjects>
+          <Subject>
+            <Name>Systems Engineering</Name>
+            <FinalGrade>10</FinalGrade>
+            <Keyword>gantt</Keyword>
+            <Year>4</Year>
+            <SubjectType>technologic</SubjectType>
+          </Subject>
+          <Subject>
+            <Name>Mathematics for Engineers</Name>
+            <FinalGrade>9</FinalGrade>
+            <Keyword>integrale</Keyword>
+            <Year>2</Year>
+            <SubjectType>scientific</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+      <FormStudy education_id="1">
+        <Name>Universitate</Name>
+        <City>Bucuresti</City>
+        <GraduationYear>2019</GraduationYear>
+        <Subjects>
+          <Subject>
+            <Name>Informatica</Name>
+            <FinalGrade>10</FinalGrade>
+            <Keyword>sorting algorithms</Keyword>
+            <Year>2</Year>
+            <SubjectType>technologic</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>extra course 1</Name>
+        <YearGraduation>2018</YearGraduation>
+      </Course>
+    </InformalEducation>
+    <Awards>
+      <Award>
+        <Name>award test</Name>
+        <TitleAward>premiul 1</TitleAward>
+        <YearAward>2000</YearAward>
+      </Award>
+    </Awards>
+    <Memberships>
+      <Membership>
+        <Title>mebership title</Title>
+        <MembershipDescription>description membership</MembershipDescription>
+        <MembershipPeriod>2010-2012</MembershipPeriod>
+      </Membership>
+    </Memberships>
+    <Interests>
+      <Interest>sport</Interest>
+      <Interest>programming</Interest>
+      <Interest>swimming</Interest>
+    </Interests>
+    <Jobs>
+      <Job>
+        <Title>junior developer</Title>
+        <JobDescription>web developer php sql js</JobDescription>
+        <JobPeriod>2019-2019</JobPeriod>
+      </Job>
+      <Job>
+        <Title>freelancer</Title>
+        <JobDescription>create websites</JobDescription>
+        <JobPeriod>2017-2019</JobPeriod>
+      </Job>
+    </Jobs>
+  </Person>
+</Persons>

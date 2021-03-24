@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+  <Person person_id="1">
+    <Name>Ana Bratucu</Name>
+    <Gender>female</Gender>
+    <Website>website</Website>
+    <Email>ana.bratucu@yahoo.com</Email>
+    <DateOfBirth>2020-01-01</DateOfBirth>
+    <Education>
+      <Name>Poli</Name>
+    </Education>
+    <Jobs>
+      <Name>job title</Name>
+    </Jobs>
+    <Memberships>
+      <Membership>
+        <Title>membership</Title>
+        <MembershipDescription>decsr membership</MembershipDescription>
+        <MembershipPeriod>3 years</MembershipPeriod>
+      </Membership>
+    </Memberships>
+    <Interests>
+      <Interest>programming</Interest>
+    </Interests>
+  </Person>
+</Persons>

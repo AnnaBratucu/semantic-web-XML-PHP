@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student student_id="1">
+    <Name>Ana Bratucu</Name>
+    <Gender>female</Gender>
+    <Website>website</Website>
+    <Address>Bvd Constructorilor, no 29</Address>
+    <Telephone>777-77-777</Telephone>
+    <Email>ana.bratucu@yahoo.com</Email>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>Poli</Name>
+        <City>Buc</City>
+        <Year>2020</Year>
+        <Subjects>
+          <Subject>
+            <Name>SW</Name>
+            <FinalGrade>10</FinalGrade>
+            <FinalGrade>swmantic</FinalGrade>
+            <FinalGrade>2019</FinalGrade>
+            <SubjectType>technologic</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>extra course</Name>
+        <YearGraduation>2018</YearGraduation>
+      </Course>
+    </InformalEducation>
+    <Jobs>
+      <Job>
+        <Title>job title</Title>
+        <JobDescription>job descr</JobDescription>
+        <JobPeriod>1 year</JobPeriod>
+      </Job>
+    </Jobs>
+    <Awards>
+      <Award>
+        <Name>award1</Name>
+        <TitleAward>title1</TitleAward>
+        <YearAward>2018</YearAward>
+      </Award>
+    </Awards>
+    <Memberships>
+      <Membership>
+        <Title>membership</Title>
+        <MembershipDescription>decsr membership</MembershipDescription>
+        <MembershipPeriod>3 years</MembershipPeriod>
+      </Membership>
+    </Memberships>
+  </Student>
+</Students>

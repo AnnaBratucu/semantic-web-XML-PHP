@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student student_id="1">
+    <Name>Cristina Matei</Name>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>Politehnica</Name>
+        <City>Bucuresti</City>
+        <Year>2020</Year>
+        <Subjects>
+          <Subject>
+            <Name>Systems Engineering</Name>
+            <FinalGrade>10</FinalGrade>
+            <Keyword>gantt</Keyword>
+            <Year>4</Year>
+            <SubjectType>technologic</SubjectType>
+          </Subject>
+          <Subject>
+            <Name>Mathematics for Engineers</Name>
+            <FinalGrade>9</FinalGrade>
+            <Keyword>integrale</Keyword>
+            <Year>2</Year>
+            <SubjectType>scientific</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+      <FormStudy education_id="1">
+        <Name>Universitate</Name>
+        <City>Bucuresti</City>
+        <Year>2019</Year>
+        <Subjects>
+          <Subject>
+            <Name>Informatica</Name>
+            <FinalGrade>10</FinalGrade>
+            <Keyword>sorting algorithms</Keyword>
+            <Year>2</Year>
+            <SubjectType>technologic</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>extra course 1</Name>
+        <YearGraduation>2015</YearGraduation>
+      </Course>
+    </InformalEducation>
+  </Student>
+</Students>

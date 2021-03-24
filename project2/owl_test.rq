@@ -1,0 +1,6 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX job: <http://www.semanticweb.org/ana/ontologies/2020/0/untitled-ontology-17>
+SELECT *
+WHERE {
+  ?job rdfs:subClassOf+ job:Managers 
+}

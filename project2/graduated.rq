@@ -1,0 +1,10 @@
+PREFIX friends: <http://www.w3.org/2000/01/rdf-schema#>
+						PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+						SELECT ?name ?interest1 ?interest2
+						WHERE {
+
+
+						?x  friends:haveInterest  ?haveInterest . ?x  friends:favBand  ?favBand . ?x  friends:name  ?name .
+						?haveInterest friends:love ?interest1 . ?favBand friends:favBand ?interest2
+
+						}

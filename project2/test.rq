@@ -1,0 +1,11 @@
+PREFIX friends: <http://www.w3.org/2000/01/rdf-schema#>
+						SELECT ?x ?ocupation ?a
+						WHERE {
+
+
+						{?x  friends:ocupation  ?ocupation }
+						UNION
+						{ ?x  friends:ocupation  ?ocupation . ?ocupation friends:name ?a } .
+						FILTER ( regex(?a, 'manager', 'i') || regex(?ocupation, 'manager', 'i') )
+
+						}

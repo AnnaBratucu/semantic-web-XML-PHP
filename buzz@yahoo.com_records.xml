@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student student_id="1">
+    <Name>Buzz Mcall</Name>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>Queens High School</Name>
+        <City>Washington</City>
+        <Year>2009</Year>
+        <Subjects>
+          <Subject>
+            <Name>sport</Name>
+            <FinalGrade>10</FinalGrade>
+            <Keyword>running</Keyword>
+            <Year>2</Year>
+            <SubjectType>arts</SubjectType>
+          </Subject>
+          <Subject>
+            <Name>informatics</Name>
+            <FinalGrade>5</FinalGrade>
+            <Keyword>i don't know</Keyword>
+            <Year>4</Year>
+            <SubjectType>technologic</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>chess</Name>
+        <YearGraduation>2001</YearGraduation>
+      </Course>
+    </InformalEducation>
+  </Student>
+</Students>

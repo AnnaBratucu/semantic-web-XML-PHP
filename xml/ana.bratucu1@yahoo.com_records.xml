@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student student_id="1">
+    <Name>Ana Bratucu</Name>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>asdf</Name>
+        <City>asd</City>
+        <Year>asd</Year>
+        <Subjects>
+          <Subject>
+            <Name>asd</Name>
+            <FinalGrade>asd</FinalGrade>
+            <Keyword>asd</Keyword>
+            <Year>asd</Year>
+            <SubjectType>languages</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>asd</Name>
+        <YearGraduation>asd</YearGraduation>
+      </Course>
+    </InformalEducation>
+  </Student>
+</Students>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+  <Person person_id="1">
+    <Name>Kevin Mcall</Name>
+    <Gender>male</Gender>
+    <Website>kevin.com</Website>
+    <Email>kevin@yahoo.com</Email>
+    <DateOfBirth>2000-09-07</DateOfBirth>
+    <Education>
+      <Name>NYU</Name>
+      <Name>High School</Name>
+    </Education>
+    <Jobs>
+      <Name>mcdonalds</Name>
+    </Jobs>
+    <Memberships>
+      <Membership>
+        <Title>choir club</Title>
+        <MembershipDescription>singing in competitions</MembershipDescription>
+        <MembershipPeriod>2017-2018</MembershipPeriod>
+      </Membership>
+      <Membership>
+        <Title>science club</Title>
+        <MembershipDescription>research</MembershipDescription>
+        <MembershipPeriod>2012-2013</MembershipPeriod>
+      </Membership>
+    </Memberships>
+    <Interests>
+      <Interest>dance</Interest>
+      <Interest>sing</Interest>
+      <Interest>read</Interest>
+    </Interests>
+  </Person>
+</Persons>

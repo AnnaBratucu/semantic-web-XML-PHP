@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
+<Persons>
+  <Person person_id="1">
+    <Name>Ana Bratucu</Name>
+    <Gender>female</Gender>
+    <Website>webb.com</Website>
+    <Email>ana7bratucu@gmail.com</Email>
+    <DateOfBirth>2020-01-09</DateOfBirth>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>Poly</Name>
+        <City>Buc</City>
+        <GraduationYear>1997</GraduationYear>
+        <Subjects>
+          <Subject>
+            <Name>a</Name>
+            <FinalGrade>10</FinalGrade>
+            <Keyword>A</Keyword>
+            <Year>2018</Year>
+            <SubjectType>scientific</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>sad</Name>
+        <YearGraduation>asd</YearGraduation>
+      </Course>
+    </InformalEducation>
+    <Jobs>
+      <Job>
+        <Title>sad</Title>
+        <JobDescription>sad</JobDescription>
+        <JobPeriod>asd</JobPeriod>
+      </Job>
+    </Jobs>
+    <Awards>
+      <Award>
+        <Name>sda</Name>
+        <TitleAward>asd</TitleAward>
+        <YearAward>asd</YearAward>
+      </Award>
+    </Awards>
+    <Memberships>
+      <Membership>
+        <Title>asd</Title>
+        <MembershipDescription>asd</MembershipDescription>
+        <MembershipPeriod>asd</MembershipPeriod>
+      </Membership>
+    </Memberships>
+    <Interests>
+      <Interest>asd</Interest>
+    </Interests>
+  </Person>
+</Persons>

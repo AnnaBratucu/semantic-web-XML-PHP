@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student student_id="1">
+    <Name>Buzz Mcall</Name>
+    <Gender>male</Gender>
+    <Website>buzz.com</Website>
+    <Address>Central Park 29</Address>
+    <Telephone>077-77-123</Telephone>
+    <Email>buzz@yahoo.com</Email>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>Queens High School</Name>
+        <City>Washington</City>
+        <Year>2009</Year>
+        <Subjects>
+          <Subject>
+            <Name>sport</Name>
+            <FinalGrade>10</FinalGrade>
+            <FinalGrade>running</FinalGrade>
+            <FinalGrade>2</FinalGrade>
+            <SubjectType>arts</SubjectType>
+          </Subject>
+          <Subject>
+            <Name>informatics</Name>
+            <FinalGrade>5</FinalGrade>
+            <FinalGrade>i don't know</FinalGrade>
+            <FinalGrade>4</FinalGrade>
+            <SubjectType>technologic</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>chess</Name>
+        <YearGraduation>2001</YearGraduation>
+      </Course>
+    </InformalEducation>
+    <Jobs>
+      <Job>
+        <Title>waiter</Title>
+        <JobDescription>serve tables</JobDescription>
+        <JobPeriod>2010-2012</JobPeriod>
+      </Job>
+      <Job>
+        <Title>mcdonalds</Title>
+        <JobDescription>make burgers</JobDescription>
+        <JobPeriod>2018-present</JobPeriod>
+      </Job>
+    </Jobs>
+    <Awards>
+      <Award>
+        <Name>sport competition</Name>
+        <TitleAward>first place</TitleAward>
+        <YearAward>2008</YearAward>
+      </Award>
+    </Awards>
+    <Memberships>
+      <Membership>
+        <Title>chess club</Title>
+        <MembershipDescription>learn chess</MembershipDescription>
+        <MembershipPeriod>2000-2001</MembershipPeriod>
+      </Membership>
+    </Memberships>
+  </Student>
+</Students>

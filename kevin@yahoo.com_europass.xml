@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student student_id="1">
+    <Name>Kevin Mcall</Name>
+    <Gender>male</Gender>
+    <Website>kevin.com</Website>
+    <Address>Central Park 29</Address>
+    <Telephone>077-77-000</Telephone>
+    <Email>kevin@yahoo.com</Email>
+    <Education>
+      <FormStudy education_id="0">
+        <Name>NYU</Name>
+        <City>New York</City>
+        <Year>2019</Year>
+        <Subjects>
+          <Subject>
+            <Name>dance</Name>
+            <FinalGrade>9</FinalGrade>
+            <FinalGrade>piruete</FinalGrade>
+            <FinalGrade>2</FinalGrade>
+            <SubjectType>arts</SubjectType>
+          </Subject>
+          <Subject>
+            <Name>sing</Name>
+            <FinalGrade>10</FinalGrade>
+            <FinalGrade>vocals</FinalGrade>
+            <FinalGrade>1</FinalGrade>
+            <SubjectType>arts</SubjectType>
+          </Subject>
+          <Subject>
+            <Name>english</Name>
+            <FinalGrade>9</FinalGrade>
+            <FinalGrade>grammar</FinalGrade>
+            <FinalGrade>1</FinalGrade>
+            <SubjectType>languages</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+      <FormStudy education_id="1">
+        <Name>High School</Name>
+        <City>Washington</City>
+        <Year>2018</Year>
+        <Subjects>
+          <Subject>
+            <Name>mathematics</Name>
+            <FinalGrade>7</FinalGrade>
+            <FinalGrade>sum</FinalGrade>
+            <FinalGrade>2016</FinalGrade>
+            <SubjectType>scientific</SubjectType>
+          </Subject>
+        </Subjects>
+      </FormStudy>
+    </Education>
+    <InformalEducation>
+      <Course>
+        <Name>extra dance class</Name>
+        <YearGraduation>2015</YearGraduation>
+      </Course>
+    </InformalEducation>
+    <Jobs>
+      <Job>
+        <Title>mcdonalds</Title>
+        <JobDescription>make burgers</JobDescription>
+        <JobPeriod>2017-2018</JobPeriod>
+      </Job>
+    </Jobs>
+    <Awards>
+      <Award>
+        <Name>dance competition</Name>
+        <TitleAward>first prize</TitleAward>
+        <YearAward>2017</YearAward>
+      </Award>
+    </Awards>
+    <Memberships>
+      <Membership>
+        <Title>choir club</Title>
+        <MembershipDescription>singing in competitions</MembershipDescription>
+        <MembershipPeriod>2017-2018</MembershipPeriod>
+      </Membership>
+      <Membership>
+        <Title>science club</Title>
+        <MembershipDescription>research</MembershipDescription>
+        <MembershipPeriod>2012-2013</MembershipPeriod>
+      </Membership>
+    </Memberships>
+  </Student>
+</Students>
